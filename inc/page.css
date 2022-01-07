@@ -1,4 +1,4 @@
-﻿/*
+/*
  *	page.css
  *	2021-12-23 usp
  */
@@ -74,6 +74,15 @@
 	overflow : visible ;
 	}
 
+#page-footer {
+	padding : 10px 10px 10px 10px ;
+	color : gray ;
+	text-align : center ;
+	border-top : 1px solid silver ;
+	font-size : 12px ;
+	line-height : 20px ;
+	}
+
 body {
 	font-family : "Segoe UI", Calibri, Verdana, Arial, "Palatino Linotype", Hevetica ;
 	margin : 0 0 0 0 ;
@@ -115,14 +124,6 @@ figcaption+iframe {
 	margin-bottom : 20px ;
 	border-style : none ;
 	border-top-style : solid ;
-	}
-
-footer {
-	padding : 10px 10px 10px 10px ;
-	color : gray ;
-	text-align : center ;
-	border-top : 1px solid silver ;
-	font-size : 12px ;
 	}
 
 h1, h2, h3, h4, h5, h6 { 

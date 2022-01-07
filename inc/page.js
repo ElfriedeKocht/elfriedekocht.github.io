@@ -1,8 +1,9 @@
-﻿// 
+// 
 //	page.js  2022-01-06  usp
 //
 
 import * as collapsible from "/inc/collapsible/collapsible-5.js" ;
+import * as footer from "/inc/footer-2.js";
 import * as loader from "/inc/loader-4.js" ;
 
 ( function initAbstract ( ) {
@@ -17,12 +18,12 @@ import * as loader from "/inc/loader-4.js" ;
 // toolbar.initPage( );
 // header.initPage( );
 footer.initPage( );
-navigation.initPage( );
+// navigation.initPage( );
 loader.loadFragments( ).then (( ) => {
 	console.log( "Loading finished" );
 	collapsible.initPage( );
-	navigation.findCurrentDocument( );
-	toolbar.createButtons( navigation, collapsible );
-	footer.addLinks( navigation );
+//	navigation.findCurrentDocument( );
+//	toolbar.createButtons( navigation, collapsible );
+	footer.addNavigationLinks( );
 	} ) ;
 
