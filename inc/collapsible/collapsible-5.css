@@ -1,4 +1,4 @@
-﻿/* collapsible-block-5.css */
+/* collapsible-block-5.css */
 /* 2021-10-21 usp */
 
 [cbc] {
@@ -17,7 +17,7 @@
 	}
 
 [cbc="expanded"]:before {
-    background-image: url("/inc/collapsible/orange-minus.svg") !important;
+    background-image: url("orange-minus.svg") !important;
 	}
 
 [cbc="collapsed"] + * + [cbc] {
@@ -25,10 +25,8 @@
 	}
 
 [cbc="collapsed"]:before {
-    background-image: url("/inc/collapsible/orange-plus.svg") !important;
+    background-image: url("orange-plus.svg") !important;
 	}
-
-[cbc]+div { overflow-x : visible }
 
 [cbc]+div>*:first-child { margin-top : 0px }
 
@@ -46,15 +44,14 @@ ul.collapsible li:before {
 	}
 
 h2[cbc], h3[cbc], h4[cbc], h5[cbc], dt[cbc] {
-	margin-left : -15px ;
+	margin-left : 0px ;
 	}
-
-
+	
 ul.collapsible li[active]:before {
     margin-left: -20px;
     background-image: url("/inc/collapsible/orange-dot-active.svg");
-}
-
+	}
+	
 ul.collapsible {
 	padding-left : 25px ;
 	}
