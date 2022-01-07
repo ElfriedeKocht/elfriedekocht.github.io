@@ -1,4 +1,4 @@
-﻿//
+//
 // footer-2.js  2021-08-03  usp
 //
 
@@ -23,7 +23,7 @@ export function initPage ( ) {
 		}
 	if ( ! footer ) document.createElement( "DIV" );
 	footer.id = "page-footer" ;
-	footer.innerHTML = `Created ${creationDate} by ${pageCreator} &bull;  Edited ${changeDate} by ${pageEditor} &bull; Version8 ${pageVersion}<br/><a href=\"/index.htm\">Home</a> | ` ;
+	footer.innerHTML = `Created ${creationDate} by ${pageCreator} &bull;  Edited ${changeDate} by ${pageEditor} &bull; Version ${pageVersion}<br/><a href=\"/index.htm\">Home</a> | ` ;
 	document.body.appendChild( footer );
 	}
 
